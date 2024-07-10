@@ -5,7 +5,7 @@ This project aims to automate API and mobile application testing using Selenium,
 ## Project Structure
 
 ````
-flip-test/
+appium-java-testng/
 |-- src/
 |   |-- main/
 |   |   |-- java/
