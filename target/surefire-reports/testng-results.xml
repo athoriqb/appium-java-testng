@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-08T13:06:21 WIB" name="Surefire suite" finished-at="2024-07-08T13:06:53 WIB" duration-ms="32507">
+    <groups>
+    </groups>
+    <test started-at="2024-07-08T13:06:21 WIB" name="Surefire test" finished-at="2024-07-08T13:06:53 WIB" duration-ms="32507">
+      <class name="mobileTests.MobileTestSuite">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:21 WIB" name="setUpClass" finished-at="2024-07-08T13:06:30 WIB" duration-ms="8603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:30 WIB" name="setUp" finished-at="2024-07-08T13:06:30 WIB" duration-ms="44" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mobileTests.MobileTestSuite.verifyAbleLoginToSauceLab() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAbleLoginToSauceLab()[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:30 WIB" name="verifyAbleLoginToSauceLab" description="Verify able to Login To Sauce Lab" finished-at="2024-07-08T13:06:35 WIB" duration-ms="4990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleLoginToSauceLab -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:35 WIB" name="setUp" finished-at="2024-07-08T13:06:35 WIB" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mobileTests.MobileTestSuite.verifyAbleFilterProductHighToLow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAbleFilterProductHighToLow()[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:35 WIB" name="verifyAbleFilterProductHighToLow" description="verify able to filter from high to low" finished-at="2024-07-08T13:06:38 WIB" depends-on-methods="mobileTests.MobileTestSuite.verifyAbleLoginToSauceLab" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleFilterProductHighToLow -->
+        <test-method signature="verifyAbleFilterProductLowToHigh()[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:38 WIB" name="verifyAbleFilterProductLowToHigh" description="verify able to filter from low to high" finished-at="2024-07-08T13:06:40 WIB" depends-on-methods="mobileTests.MobileTestSuite.verifyAbleFilterProductHighToLow" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleFilterProductLowToHigh -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:38 WIB" name="setUp" finished-at="2024-07-08T13:06:38 WIB" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mobileTests.MobileTestSuite.verifyAbleFilterProductLowToHigh()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:40 WIB" name="setUp" finished-at="2024-07-08T13:06:40 WIB" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void mobileTests.MobileTestSuite.verifyAbleToCheckout() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAbleToCheckout()[pri:4, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:40 WIB" name="verifyAbleToCheckout" description="verify able to checkout product" finished-at="2024-07-08T13:06:53 WIB" depends-on-methods="mobileTests.MobileTestSuite.verifyAbleFilterProductLowToHigh" duration-ms="12903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbleToCheckout -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:mobileTests.MobileTestSuite@1f59a598]" started-at="2024-07-08T13:06:53 WIB" name="tearDownClass" finished-at="2024-07-08T13:06:53 WIB" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- mobileTests.MobileTestSuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
